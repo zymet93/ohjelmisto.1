@@ -7,7 +7,8 @@ naulatGrammoina = float(input("Anna naulat: ")) * NAULA_KERROIN
 luoditGrammoina = float(input("Anna luodit: ")) * LUOTI_KERROIN
 
 grammatyhteensä = leiviskätGrammoina + naulatGrammoina + luoditGrammoina
-kilogrammat = int(grammatyhteensä / 1000)
-grammat = int(grammatyhteensä % 1000)
+kilogrammat = int(grammatyhteensä/1000)
+grammat = int(grammatyhteensä%1000)
+
 
 print(f'Massa nykymittojen mukaan:\n{kilogrammat} kilogrammaa ja {grammat} grammaa. ')
