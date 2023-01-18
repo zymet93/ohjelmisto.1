@@ -1,6 +1,7 @@
 import math
 import random
 
+
 Pisteet = int(input("Syötä pisteiden määrä: "))
 N = 0
 n = 0
