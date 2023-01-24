@@ -7,5 +7,6 @@ for n in range(nopat):
     noppa = random.randint(1, 6)
     lista.append(noppa)
 
+
 summa = sum(lista)
 print(summa)
