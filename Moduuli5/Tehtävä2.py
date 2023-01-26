@@ -14,6 +14,4 @@ while jatkuu:
         print("5 suurinta lukua ovat:", luvut[0:5])
     else:
         luvut.append(int(luku))
-        for n in luvut:
-
-            luvut.sort(reverse=True)
+        luvut.sort(reverse=True)
