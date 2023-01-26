@@ -8,7 +8,7 @@ import math
 
 #pizzan halkaisija/hinta funktio
 def pizza(halkaisija, hinta):
-    pinta_ala = math.pi * (halkaisija / 2) ** 2
+    pinta_ala = math.pi * (halkaisija /100 / 2) ** 2
     arvo = hinta / pinta_ala
     return arvo
 
