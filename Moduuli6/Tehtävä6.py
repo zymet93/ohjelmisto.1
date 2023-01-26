@@ -27,5 +27,8 @@ print("Ensimmäisen pizzan hinta per neliö: ",f'{summa1:.3f}')
 print("Toisen pizzan hinta per neliö: ",f'{summa2:.3f}')
 if summa1 > summa2:
     print("2. pizzalla on alhaisempi yksikköhinta.")
-else:
+elif summa2>summa1:
     print("1. pizzalla on alhaisempi yksikköhinta.")
+# Jos sama hinta:
+elif summa2==summa1:
+    print(" Pizzoilla on sama yksikköhinta.")
