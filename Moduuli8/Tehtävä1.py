@@ -26,6 +26,7 @@ def hae_lentokentat_maasta(icao):
 icao = input("Anna icao koodi: ")
 lentokentat = hae_lentokentat_maasta(icao)
 
+
 if lentokentat:
     print (lentokentat)
 else :

@@ -26,6 +26,7 @@ def get_two_icao_code2(icao_code1, icao_code2):
     result1 = cursor.fetchone()
     print("Ensimmäinen sijainti (leveysaste, pituusaste): ", result1)
 
+
     sql2 = f"SELECT airport.latitude_deg,airport.longitude_deg FROM airport WHERE ident='{icao_code2}';"
     cursor = yhteys.cursor()
     cursor.execute(sql2)

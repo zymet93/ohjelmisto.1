@@ -12,6 +12,7 @@ yhteys = mysql.connector.connect(
          autocommit=True
          )
 
+
 maakoodi = input("Kirjoita maakoodi: ")
 sql = "SELECT type, count(*) FROM airport WHERE iso_country = '" + maakoodi + "' GROUP BY type"
 cursor = yhteys.cursor()
