@@ -8,7 +8,6 @@
 import mysql.connector
 from geopy import distance
 from geopy.distance import geodesic
-from geopy.distance import great_circle
 yhteys = mysql.connector.connect(
          host='127.0.0.1',
          port= 3306,
