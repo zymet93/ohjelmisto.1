@@ -1,4 +1,4 @@
-sex = input("mikä on sukupuolisi ? (M/N) ").capitalize()
+sex = input("mikä on sukupuolesi ? (M/N) ").capitalize()
 hemoglobin = int(input("Mikä on hemoglobiiniarvosi? (g/l)? "))
 
 if sex == "M".capitalize():
